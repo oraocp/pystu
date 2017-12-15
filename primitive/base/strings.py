@@ -20,5 +20,13 @@ def print_str():
     print('raw_str', ':', __raw_str)
 
 
+def split_demo():
+    # 分解字符串为数组
+    str1 = 'AE,CR,DE'
+    for s in str1.split(','):
+        print(s)
+
+
 if __name__ == "__main__":
     print_str()
+    split_demo()
